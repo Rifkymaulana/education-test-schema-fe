@@ -44,6 +44,7 @@ function cariDataTerbanyakPadaArray(data){
     console.log("total data paling banyak keluar adalah", dataTerbanyak, "dengan jumlah", data.filter((nilai) => (nilai === dataTerbanyak)).length);;
 }
 
+// function cariDataTerbanyakPadaArray() dengan memasukan parameter
 cariDataTerbanyakPadaArray(data1);
 cariDataTerbanyakPadaArray(data2);
 cariDataTerbanyakPadaArray(data3);
